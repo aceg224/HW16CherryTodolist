@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1886BD73222A8381002DF5CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886BD72222A8381002DF5CA /* AppDelegate.swift */; };
-		1886BD75222A8381002DF5CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886BD74222A8381002DF5CA /* ViewController.swift */; };
 		1886BD78222A8381002DF5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1886BD76222A8381002DF5CA /* Main.storyboard */; };
 		1886BD7B222A8381002DF5CA /* HW16CherryTodolist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1886BD79222A8381002DF5CA /* HW16CherryTodolist.xcdatamodeld */; };
 		1886BD7D222A8381002DF5CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1886BD7C222A8381002DF5CA /* Assets.xcassets */; };
 		1886BD80222A8381002DF5CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1886BD7E222A8381002DF5CA /* LaunchScreen.storyboard */; };
 		1886BD8B222A8381002DF5CA /* HW16CherryTodolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886BD8A222A8381002DF5CA /* HW16CherryTodolistTests.swift */; };
 		1886BD96222A8381002DF5CA /* HW16CherryTodolistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886BD95222A8381002DF5CA /* HW16CherryTodolistUITests.swift */; };
+		1886BDA4222A8553002DF5CA /* CherryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886BDA3222A8553002DF5CA /* CherryTableViewCell.swift */; };
+		1886BDA6222A8574002DF5CA /* CherrysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886BDA5222A8574002DF5CA /* CherrysTableViewController.swift */; };
+		1886BDA8222A8586002DF5CA /* AddCherryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886BDA7222A8586002DF5CA /* AddCherryTableViewController.swift */; };
+		18E6D4B0222ECBC10095C366 /* CherryEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6D4AE222ECBC10095C366 /* CherryEntity+CoreDataClass.swift */; };
+		18E6D4B1222ECBC10095C366 /* CherryEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6D4AF222ECBC10095C366 /* CherryEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		1886BD6F222A8381002DF5CA /* HW16CherryTodolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW16CherryTodolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1886BD72222A8381002DF5CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1886BD74222A8381002DF5CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1886BD77222A8381002DF5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1886BD7A222A8381002DF5CA /* HW16CherryTodolist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HW16CherryTodolist.xcdatamodel; sourceTree = "<group>"; };
 		1886BD7C222A8381002DF5CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		1886BD91222A8381002DF5CA /* HW16CherryTodolistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW16CherryTodolistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1886BD95222A8381002DF5CA /* HW16CherryTodolistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW16CherryTodolistUITests.swift; sourceTree = "<group>"; };
 		1886BD97222A8381002DF5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1886BDA3222A8553002DF5CA /* CherryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherryTableViewCell.swift; sourceTree = "<group>"; };
+		1886BDA5222A8574002DF5CA /* CherrysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherrysTableViewController.swift; sourceTree = "<group>"; };
+		1886BDA7222A8586002DF5CA /* AddCherryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCherryTableViewController.swift; sourceTree = "<group>"; };
+		18E6D4AE222ECBC10095C366 /* CherryEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CherryEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18E6D4AF222ECBC10095C366 /* CherryEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CherryEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		1886BD71222A8381002DF5CA /* HW16CherryTodolist */ = {
 			isa = PBXGroup;
 			children = (
+				18E6D4AE222ECBC10095C366 /* CherryEntity+CoreDataClass.swift */,
+				18E6D4AF222ECBC10095C366 /* CherryEntity+CoreDataProperties.swift */,
 				1886BD72222A8381002DF5CA /* AppDelegate.swift */,
-				1886BD74222A8381002DF5CA /* ViewController.swift */,
 				1886BD76222A8381002DF5CA /* Main.storyboard */,
 				1886BD7C222A8381002DF5CA /* Assets.xcassets */,
 				1886BD7E222A8381002DF5CA /* LaunchScreen.storyboard */,
 				1886BD81222A8381002DF5CA /* Info.plist */,
 				1886BD79222A8381002DF5CA /* HW16CherryTodolist.xcdatamodeld */,
+				1886BDA3222A8553002DF5CA /* CherryTableViewCell.swift */,
+				1886BDA5222A8574002DF5CA /* CherrysTableViewController.swift */,
+				1886BDA7222A8586002DF5CA /* AddCherryTableViewController.swift */,
 			);
 			path = HW16CherryTodolist;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1886BD75222A8381002DF5CA /* ViewController.swift in Sources */,
+				18E6D4B0222ECBC10095C366 /* CherryEntity+CoreDataClass.swift in Sources */,
+				1886BDA8222A8586002DF5CA /* AddCherryTableViewController.swift in Sources */,
+				1886BDA6222A8574002DF5CA /* CherrysTableViewController.swift in Sources */,
+				18E6D4B1222ECBC10095C366 /* CherryEntity+CoreDataProperties.swift in Sources */,
 				1886BD73222A8381002DF5CA /* AppDelegate.swift in Sources */,
+				1886BDA4222A8553002DF5CA /* CherryTableViewCell.swift in Sources */,
 				1886BD7B222A8381002DF5CA /* HW16CherryTodolist.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
