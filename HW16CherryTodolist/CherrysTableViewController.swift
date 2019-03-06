@@ -11,6 +11,12 @@ import CoreData
 var cherrys = [CherryEntity]()
 var context : NSManagedObjectContext!
 class CherrysTableViewController: UITableViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         let request = NSFetchRequest<CherryEntity>(entityName: "CherryEntity")
         do {
@@ -19,11 +25,6 @@ class CherrysTableViewController: UITableViewController {
         } catch let error {
             print(error.localizedDescription)
         }
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     }
     
     // MARK: - Table view data source
